@@ -1,11 +1,11 @@
-
+import { Spline } from '@splinetool/react-spline';
 
 function App() {
   return (
-    <div className="flex w-screen h-screen items-center justify-center">
-      <h1 className="text-3xl font-bold text-blue-500">
-        THIS IS MY PORTFOLIO NPX
-      </h1>
+    <div className="flex w-screen h-screen min-h-screen flex-col relative  pb-20 items-center justify-center bg-primary">
+      <div className="relative" id="home">
+        <Spline scene="https://prod.spline.design/oo6IxFu8UDjFUmjD/scene.spline" />
+      </div>
     </div>
   );
 }
