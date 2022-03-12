@@ -23,6 +23,7 @@
 - `npm add @splinetool/runtime`
 - You learn spline app then export UI 3D at background :)))
 - `npm add react-icons`
+- `npm add react-vertical-timeline-component`
 
 #
 

@@ -12,9 +12,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+html:-webkit-scrollbar,
 body:-webkit-scrollbar,
-html:-webkit-scrollbar {
-  display: none;
+#root:-webkit-scrollbar {
+  display: none !important;
 }
 @tailwind base;
 @tailwind components;
