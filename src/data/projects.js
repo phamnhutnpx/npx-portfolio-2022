@@ -1,18 +1,6 @@
 export const Projects = [
-    {
-        id: Math.floor(Math.random() * 1000),
-        name: "Projects",
-        imageSrc: "https://s3.amazonaws.com/www-inside-design/uploads/2018/05/weather-app-4_feature-983x740.jpg",
-        techs: "reactjs, javascript",
-        github: "#"
-    },
-    {
-        id: Math.floor(Math.random() * 1000),
-        name: "Projects",
-        imageSrc: "https://s3.amazonaws.com/www-inside-design/uploads/2018/05/weather-app-4_feature-983x740.jpg",
-        techs: "reactjs, javascript",
-        github: "#"
-    },
+
+
     {
         id: Math.floor(Math.random() * 1000),
         name: "Projects",
@@ -36,7 +24,7 @@ export const Projects = [
     },
     {
         id: Math.floor(Math.random() * 1000),
-        name: "Projects",
+        name: "Projects react class components resposive scss",
         imageSrc: "https://s3.amazonaws.com/www-inside-design/uploads/2018/05/weather-app-4_feature-983x740.jpg",
         techs: "reactjs, javascript",
         github: "#"
