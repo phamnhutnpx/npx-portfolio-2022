@@ -1,16 +1,16 @@
 import { useState } from 'react';
 import { Spline } from '@splinetool/react-spline';
-import { IoMenu, IoCodeWorking } from "react-icons/io5";
+import { IoMenu, IoCodeWorking, IoLogoGithub } from "react-icons/io5";
 import { BsChevronDoubleDown } from "react-icons/bs";
-import npxAvt from './images/npxAvt.jpg'
+import npxAvt from './images/npxAvt.jpg';
 import {
   VerticalTimeline,
   VerticalTimelineElement
 } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 
-import { Experience } from './data/experience'
-
+import { Experience } from './data/experience';
+import { Projects } from './data/projects';
 function App() {
   // active icon menu mobile
   const [isActive, setIsActive] = useState(false);
@@ -80,8 +80,8 @@ function App() {
       </nav>
 
       <div className="relative " id="home">
-        {/* <Spline scene="https://prod.spline.design/oo6IxFu8UDjFUmjD/scene.spline" /> */}
-        <Spline scene="https://prod.spline.design/HLWD74JDZXxz8IdE/scene.spline" />
+        <Spline scene="https://prod.spline.design/oo6IxFu8UDjFUmjD/scene.spline" />
+        {/* <Spline scene="https://prod.spline.design/HLWD74JDZXxz8IdE/scene.spline" className="" /> */}
         <div className="absolute w-full justify-center items-center bottom-10 flex">
           <div className="shadow-md p-4 flex items-center bg-zinc-900 rounded-3xl">
             <BsChevronDoubleDown className="text-textBase" />
@@ -136,6 +136,31 @@ function App() {
             ))}
 
           </VerticalTimeline>
+        </section>
+        {/* main project */}
+        <section id="projects" className="flex flex-wrap items-center justify-evenly my-24 gap-4">
+          {Projects && Projects.map((item) => (
+
+            <div
+              key={item.id}
+              className="border border-zinc-800 rounded-md p-2 w-[275px] md:max-w-[275px]  hover:border-zinc-600 duration-100 ease-in-out">
+              <p className="text-lg text-textBase font-medium uppercase text-center">
+                {item.name}
+              </p>
+              <img src={item.imageSrc} className="w-full h-[200px] rounded-md my-4 object-cover cursor-grabbing" alt="" />
+              <div className="flex flex-1 justify-between">
+                <p className=" text-lg text-gray-300 ">
+                  Technologies
+                  <span className="block text-sm text-textBase">{item.techs}</span>
+                </p>
+                <a className="" alt="" href={item.github}>
+                  <div>
+                    <IoLogoGithub className="text-3xl text-textBase mt-3 " />
+                  </div>
+                </a>
+              </div>
+            </div>
+          ))}
         </section>
       </main>
     </div>
