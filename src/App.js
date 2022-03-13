@@ -9,7 +9,8 @@ function App() {
 
   return (
     <AnimatePresence initial={false}>
-      <div className="container-portfolio flex min-h-screen flex-col relative   items-center justify-center bg-primary overflow-hidden">
+      <div
+        className="container-portfolio flex min-h-screen flex-col relative   items-center justify-center bg-primary overflow-hidden">
         <Nav />
         <Background />
         {/* Main */}
