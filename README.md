@@ -26,7 +26,17 @@
 - `npm add react-vertical-timeline-component`
 - `npm add framer-motion`
 
-#
+# deploy project in firebase
+
+- Truy cap firebase tao project
+- Tao app
+- Cai firebase tools
+- `npm i firebase`
+- `firebase init`
+- Nhan phim di chuyen chon: "config ..." -> nhan "phim cach" -> Enter
+- Enter
+- Toi doan co chu public: `build`
+- Enter
 
 #
 
