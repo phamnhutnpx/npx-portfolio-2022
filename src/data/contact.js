@@ -1,28 +1,28 @@
 import { IoLogoFacebook, IoLogoGithub, IoLogoGitlab, IoLogoYoutube } from 'react-icons/io5';
 export const Contact = [
     {
-        id: Math.floor(Math.random() * 100),
+        id: Math.random(),
         iconSrc: <IoLogoGithub />,
         name: "Github",
         link: "http://github.com/phamnhutnpx"
     },
     {
-        id: Math.floor(Math.random() * 100),
+        id: Math.random(),
         iconSrc: <IoLogoGitlab />,
         name: "Gitlab",
-        link: "http://github.com/phamnhutnpx"
+        link: "https://gitlab.com/xuannhutzz"
     },
     {
-        id: Math.floor(Math.random() * 100),
+        id: Math.random(),
         iconSrc: <IoLogoYoutube />,
         name: "Youtube",
-        link: "http://github.com/phamnhutnpx"
+        link: "https://www.youtube.com/channel/UCE39U0pChmya1YLkeBLRROw"
     },
     {
-        id: Math.floor(Math.random() * 100),
+        id: Math.random(),
         iconSrc: <IoLogoFacebook />,
         name: "Facebook",
-        link: "http://github.com/phamnhutnpx"
+        link: "http://fb.com/xuannhutzz"
     },
 
 ]
