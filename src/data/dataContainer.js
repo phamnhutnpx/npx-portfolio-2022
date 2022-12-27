@@ -24,12 +24,13 @@ export const optionMenu = [
 
 ]
 export const cvDownload = [
-    {
-        id: 1,
-        name: "Download CV",
-        linkCV: "https://i.topcv.vn/phamxuannhut?ref=5303038"
-    }
-]
+  {
+    id: 1,
+    name: "Download CV",
+    linkCV:
+      "https://drive.google.com/drive/folders/1KctBy7yBt3USjWjMnpnFVBG5lF15X6F6?usp=sharing",
+  },
+];
 export const dataBackground = [
     {
         id: 1,

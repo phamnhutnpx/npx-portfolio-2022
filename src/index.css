@@ -47,6 +47,7 @@ html::-webkit-scrollbar-thumb {
 } */
 
 .npx-avt {
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)),
-    url("https://static.topcv.vn/avatars/GjiIGzGJTnFBMezlFP8i_622af2f688502_cvtpl.jpg?1647136374");
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)),
+    url("./images/npxAvt.jpg");
+    background-size: cover;
 }
